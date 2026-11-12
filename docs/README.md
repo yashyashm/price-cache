@@ -9,18 +9,6 @@ distributes accepted updates to interested in-process downstream consumers.
 
 Requires JDK 17+ and Maven 3.6.3+. From PowerShell:
 
-```powershell
-Set-Location C:\Users\GA2JASN\TEST
-mvn clean verify
-java -jar .\target\vendor-price-cache-1.0.0.jar --server.address=127.0.0.1
-```
-
-In another terminal:
-
-```powershell
-Set-Location C:\Users\GA2JASN\TEST
-.\demo.ps1
-```
 
 The script publishes REUTERS/AAPL, BLOOMBERG/AAPL and REUTERS/MSFT.
 The vendor query returns two REUTERS prices; the instrument query returns
